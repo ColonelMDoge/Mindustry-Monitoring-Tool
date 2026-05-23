@@ -1,0 +1,25 @@
+# Ignore everything by default
+*
+
+# Track specific folders
+!cData/
+!cData/**
+!server/
+!server/**
+!src/
+!src/**
+
+# Ignore specific Mindustry files/folders
+cData/Mindustry/cache/
+cData/Mindustry/previews/
+cData/Mindustry/settings_backups/
+cData/Mindustry/last_log.txt
+
+# Track root files
+!.gitignore
+!*.bat
+!*.jar
+!*.java
+!pom.xml
+!LICENSE
+!README.md
